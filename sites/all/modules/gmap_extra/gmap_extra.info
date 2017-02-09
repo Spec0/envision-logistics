@@ -1,0 +1,8 @@
+name = Gmap Extra
+description = Additional functionality for gmap module.
+package = Core
+version = 0.1
+core = 7.x
+files[] = gmap_extra.admin.inc
+configuration =
+scripts[] = js/manage_drivers_locations.js

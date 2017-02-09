@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Additional functionality for gmap module..
+ */
+
+
+/**
+ *
+ */
+function gmap_extra_init() {
+  drupal_add_js(drupal_get_path('module', 'gmap_extra') . '/js/manage_drivers_locations.js', array('file'));
+}
+
+function gmap_extra_gmap($op, &$map) {
+ drupal_add_js(drupal_get_path('module', 'gmap_extra') . '/js/manage_drivers_locations.js', array('file'));
+}
