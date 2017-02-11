@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content types and menus feature.
+ */
+
+include_once 'content_types_and_menus.features.inc';
